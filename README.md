@@ -11,8 +11,8 @@ I(t) representa o nº de indivíduos infetados pelo vírus;
 
 Por defeito, o programa usa como parâmetros:
 
-S'(t) = -0.001 * S(t) * I(t)
-I'(t) = 0.001 * S(t) * I(t) - 0.3 * I(t)
+	S'(t) = -0.001 * S(t) * I(t)
+	I'(t) = 0.001 * S(t) * I(t) - 0.3 * I(t)
 
 Os seguintes valores são pedidos ao utilizador como input:
 - tempo inicial
@@ -25,10 +25,10 @@ No final, o programa exporta os valores para um ficheiro em Comma-Separated Valu
 
 ===
 **UTILIZAÇÃO**
-1) executar o comando "make" (sem aspas) a partir de /gripe/src/
-2) correr o executável "gripe" com o comando "./gripe" (sem aspas) a partir de /gripe/src/. Com isto, o ficheiro "valores.csv" será gerado
-3) correr o script "gripe.m" no MATLAB a partir de /gripe/src/. Com isto, os gráficos de ilustração da aplicação do método serão gerados.
-4) caso necessário executar o comando "make clean" para remover os ficheiros gerados nos passos anteriores
+	1) executar o comando "make" (sem aspas) a partir de /gripe/src/
+	2) correr o executável "gripe" com o comando "./gripe" (sem aspas) a partir de /gripe/src/. Com isto, o ficheiro "valores.csv" será gerado
+	3) correr o script "gripe.m" no MATLAB a partir de /gripe/src/. Com isto, os gráficos de ilustração da aplicação do método serão gerados.
+	4) caso necessário executar o comando "make clean" para remover os ficheiros gerados nos passos anteriores
 
 ===
 Editar "funcs.h" e "funcs.c" de acordo com as ODEs pretendidas.
